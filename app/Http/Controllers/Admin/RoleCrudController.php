@@ -61,6 +61,7 @@ class RoleCrudController extends CrudController
     {
         CRUD::field('name');
         CRUD::field('guard_name');
+        CRUD::column('updated_at');
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
