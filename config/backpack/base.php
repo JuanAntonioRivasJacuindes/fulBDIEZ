@@ -77,7 +77,7 @@ return [
     // CSS files that are loaded in all pages, using Laravel's @vite() helper
     // Please note that support for Vite was added in Laravel 9.19. Earlier versions are not able to use this feature.
     'vite_styles' => [ // resource file_path
-        'resources/css/app.css',
+        // 'resources/css/app.css',
     ],
 
     // ------
@@ -85,7 +85,7 @@ return [
     // ------
 
     // Menu logo. You can replace this with an <img> tag if you have a logo.
-    'project_logo'   => 'CBDIEZ',
+    'project_logo'   => '<b>CB</b>DIEZ',
 
     // Show / hide breadcrumbs on admin panel pages.
     'breadcrumbs' => true,
@@ -158,7 +158,7 @@ return [
 
     // JS files that are loaded in all pages, using Laravel's @vite() helper
     'vite_scripts' => [ // resource file_path
-        //'resources/js/app.js',
+        // 'resources/js/app.js',
     ],
 
     // -------------
@@ -182,7 +182,7 @@ return [
     | By default the registration is open only on localhost.
     */
 
-    'registration_open' => env('BACKPACK_REGISTRATION_OPEN', env('APP_ENV') === 'local'),
+    'registration_open' => false,
 
     /*
     |--------------------------------------------------------------------------
